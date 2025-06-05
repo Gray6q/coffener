@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- css links -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- js links -->
+    <script src="assets/js/burger.js" defer></script>
+
+    <!-- italiana font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Italiana&display=swap" rel="stylesheet" />
+
+    <!-- inter font -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet" />
+
+    <title>Coffener</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__container">
+        <nav class="header__navigation">
+          <div class="header__navigation-section">
+            <a href="#" class="header__navigation-link">HOME</a>
+            <a href="#" class="header__navigation-link">OUR COFFE </a>
+          </div>
+          <img src="assets/img/logo.svg" alt="" class="header__logo" />
+          <div class="header__navigation-section">
+            <a href="#" class="header__navigation-link">BLOG</a>
+            <a href="#" class="header__navigation-link">ACCOUNT</a>
+          </div>
+        </nav>
+
+        <!-- Mobile Menu -->
+        <div class="header__hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="header__mobile-menu" id="mobileMenu">
+          <a href="#" class="header__mobile-link">HOME</a>
+          <a href="#" class="header__mobile-link">OUR COFFE</a>
+          <a href="#" class="header__mobile-link">BLOG</a>
+          <a href="#" class="header__mobile-link">ACCOUNT</a>
+        </div>
+
+        <!-- Overlay -->
+        <div class="header__overlay" id="overlay"></div>
+      </div>
+    </header>
+
+    <!-- main -->
+
+    <main class="main">
+      <div class="main__container">
+        <section class="main__hero">
+          <div class="main__hero-container">
+            <h1 class="main__hero-title">The best <span>Coffee</span> in your stunning world</h1>
+            <div class="main__hero-buttons">
+              <a href="#" class="main__hero-button main__hero-button--primary">Get Coffener</a>
+              <a href="#" class="main__hero-button main__hero-button--secondary">Cart</a>
+            </div>
+            <video class="main__hero-video" controls width="100%" poster="assets/img/video.png">
+              <source class="main__hero-source" src="assets/video/videoplayback.mp4" type="video/mp4" />
+            </video>
+          </div>
+        </section>
+
+        <!-- statistics -->
+
+        <section class="main__statistics">
+          <div class="main__statistics-container">
+            <div class="main__statistics-about">
+              <h3 class="main__statistics-title">Positive Statistics Highlight Success of Our Company</h3>
+              <p class="main__statistics-text">
+                Strong sales, positive feedback, and sustainability practices showcase our commitment to excellence and growth
+              </p>
+              <div class="main__statistics-items">
+                <div class="main__statistics-item">
+                  <p class="main__statistics-info">
+                    Customers reported high levels of satisfaction with our product, citing its quality and effectiveness.
+                  </p>
+                  <span class="main__statistics-percent">92%</span>
+                </div>
+
+                <div class="main__statistics-item">
+                  <p class="main__statistics-info">
+                    Colombian Supremo is the most popular Arabica coffee, accounting for 30% of all Arabica coffee sales worldwide.
+                  </p>
+                  <span class="main__statistics-percent">30%</span>
+                </div>
+
+                <div class="main__statistics-item">
+                  <p class="main__statistics-info">
+                    Our product has received a great rating on average across all online review platforms, indicating its quality and effectiveness.
+                  </p>
+                  <span class="main__statistics-percent">4.8-star</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- experience -->
+
+        <article class="main__experience">
+          <div class="main__experience-container">
+            <h2 class="main__experience-title">
+              Experience the Complex and <span>Delicious</span> Tastes of Two Exceptional <span>Arabica</span> Coffees
+            </h2>
+
+            <div class="main__experience-block">
+              <div class="main__experience-section main__experience-section--primary">
+                <p class="main__experience-author--small">by Daniel Tafjord on Unsplash</p>
+
+                <div class="main__experience-card">
+                  <div class="main__experience--border"></div>
+                  <p class="main__experience-author main__experience-author--big">by Daniel Tafjord on Unsplash</p>
+                  <img src="assets/img/image.svg" class="main__experience-image" />
+                </div>
+
+                <div class="main__experience-text main__experience-text--primary">
+                  <p class="main__experience-paragraph">
+                    Ethiopian Yirgacheffe is a type of Arabica coffee that is grown in the southern highlands of Ethiopia. It is considered one of the
+                    finest Arabica coffees in the world due to its unique flavor profile. The coffee is known for its bright acidity, medium body, and
+                    floral, citrusy notes with a hint of spice.
+                  </p>
+                  <p class="main__experience-paragraph">
+                    The Yirgacheffe coffee plant grows in rich, fertile soil and in high-altitude regions. The beans are carefully hand-picked and
+                    sun-dried, resulting in a coffee with a distinct flavor that is hard to replicate. The beans are also processed using a wet
+                    method, which helps to enhance the coffee's floral and fruity notes.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="main__experience-section main__experience-section--secondary">
+              <p class="main__experience-author--small">by Daniel Tafjord on Unsplash</p>
+
+              <div class="main__experience-text main__experience-text--secondary">
+                <p class="main__experience-paragraph">
+                  Ethiopian Yirgacheffe is a type of Arabica coffee that is grown in the southern highlands of Ethiopia. It is considered one of the
+                  finest Arabica coffees in the world due to its unique flavor profile. The coffee is known for its bright acidity, medium body, and
+                  floral, citrusy notes with a hint of spice.
+                </p>
+                <p class="main__experience-paragraph">
+                  The Yirgacheffe coffee plant grows in rich, fertile soil and in high-altitude regions. The beans are carefully hand-picked and
+                  sun-dried, resulting in a coffee with a distinct flavor that is hard to replicate. The beans are also processed using a wet method,
+                  which helps to enhance the coffee's floral and fruity notes.
+                </p>
+              </div>
+
+              <div class="main__experience-card">
+                <div class="main__experience--border"></div>
+                <p class="main__experience-author main__experience-author--big">by Daniel Tafjord on Unsplash</p>
+                <img src="assets/img/img.svg" class="main__experience-image main__experience-image--out" />
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <main class="main__blog">
+          <div class="main__blog-container">
+            <div class="main__blog-content">
+              <h2 class="mian__blog-title">Coffee Insights: Exploring the World of Specialty Coffee</h2>
+
+              <div class="main__blog-card">
+                
+              </div>
+            </div>
+          </div>
+        </main>
+
+      </div>
+    </main>
+  </body>
+</html>
