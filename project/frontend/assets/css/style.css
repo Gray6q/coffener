@@ -468,93 +468,95 @@ video.main__hero-video {
 }
 
 
+    /* blog */
 
 
-
-
-@media(max-width:1230px)
-{
-
-.main {
+.main__blog {
 }
-.main__container {
+.main__blog-container {
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-top: 140px;
 }
-.main__hero {
+.main__blog-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: self-end;
+
 }
+.main__blog-title {
+    font-size: 48px;
+    line-height: 64px;
+    font-family: "Italiana", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    max-width:670px; 
+}
+.main__blog-link {
+    border: 4px solid #f2f2f2;
+    border-radius: 24px;
+    width: 100px;
+    height: 100px;
+    display: flex;align-items: center;
+    justify-content: center;    
+}
+
+.main__blog-card {
+    margin-top: 60px;  
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.main__blog-item {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal; 
+    font-size: 18px;
+}
+.blog__item-image {
+    width: 100%; /* Se adaptează la container */
+max-width: 100%; /* Nu depășește container-ul */
+}
+.blog__item-title {
+    margin-top: 30px;
+}
+.blog__item-text {
+    margin-top: 10px;
+}
+
+
+
+
+
+
+    /* meida */
+
+@media(max-width:1230px){
+
+
+    /* hero */
 .main__hero-container {
     max-width: 81.25%;
 }
-.main__hero-title {
-}
-.main__hero-buttons {
-}
-.main__hero-button {
-}
-.main__hero-button--primary {
-}
-.main__hero-button--secondary {
-}
-.main__hero-video {
-}
-.main__hero-source {
-}
-.main__statistics {
-}
-.main__statistics-container {
-}
+
+    /* stastistics */
 .main__statistics-about {
     max-width: 85.41%;
 
 }
-.main__statistics-title {
-}
-.main__statistics-text {
-}
-.main__statistics-items {
-}
-.main__statistics-item {
-}
-.main__statistics-info {
-}
-.main__statistics-percent {
-}
-.main__experience {
-}
+
+    /* experience */
 .main__experience-container {
     max-width: 85.41%;
 
 }
-.main__experience-title {
-}
-.main__experience-block {
-}
-.main__experience-section {
-}
-.main__experience-section--primary {
-}
-.main__experience-card {
-}
-.main__experience--border {
-}
-.main__experience-author {
-}
-.main__experience-image {
-}
-.main__experience-text {
-}
-.main__experience-text--primary {
-}
-.main__experience-paragraph {
-}
-.main__experience-section--secondary {
-}
-.main__experience-author--small {
-}
-.main__experience-text--secondary {
-}
-.main__experience-author--big {
-}
-.main__experience-image--out {
+
+    /* blog */
+.main__blog-container {
+        max-width: 85.41%;
+
 }
 }
 
@@ -577,6 +579,15 @@ video.main__hero-video {
                 line-height: 100px;
             }
 
+    /* blog */
+
+    .main__blog-container{
+        margin-top: 60px;
+    }
+    .main__blog-title{
+        font-size: 40px;
+        max-width: 500px;
+    }
 }
 
 
@@ -609,14 +620,19 @@ video.main__hero-video {
     }
 
     .main__hero-video {
-        border-radius: 0;
-         width: 100vw;
-
-  display: block;
-  height: auto;
+    border-radius: 0;
+    width: 100vw;
+    display: block;
+    height: auto;
 }
-.main__hero-source {
 
+
+/* blog */
+.main__blog-card{
+    grid-template-columns: repeat(2, 1fr);
+}
+.main__blog-item:nth-child(3){
+    margin-top: 60px;
 }
 }
 
@@ -667,6 +683,18 @@ video.main__hero-video {
     .main__experience-section{
         display: block;
     }
+
+    /* blog */
+    .main__blog-title{
+        font-size: 40px;
+        max-width: 400px;
+    }
+    .main__blog-link{
+        max-width: 85px;
+        max-height: 85px;
+        border-radius: 20px;
+        
+    }
 }
 
 @media(max-width:635px){
@@ -675,10 +703,23 @@ video.main__hero-video {
         font-size: 53px;
         line-height: 60px;
     }
+    .main__blog-section{
+        flex-direction: column;
+        align-items: start;
+    }
+    .main__blog-title{
+        max-width: none;
+        height: auto;
+    }
+    .main__blog-link{
+        margin-top: 60px;
+    }
+
+    
 }
 
 @media(max-width:560px){
-
+    
     .main__hero-title{
         font-size: 48px;
     }
@@ -689,6 +730,11 @@ video.main__hero-video {
     }
     .main__statistics-items{
         grid-template-columns: repeat(1, 1fr);
+    }   
+    /* blog */
+    
+    .main__blog-card{
+        grid-template-columns: 1fr;
     }
 }
 
