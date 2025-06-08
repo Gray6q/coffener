@@ -14,8 +14,7 @@ ul li{list-style: none;}
 img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 /*--------------------*/
-@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 
   /* 
     font-family: "Inter", sans-serif;
@@ -497,7 +496,8 @@ video.main__hero-video {
     border-radius: 24px;
     width: 100px;
     height: 100px;
-    display: flex;align-items: center;
+    display: flex;
+    `align-items: center;
     justify-content: center;    
 }
 
@@ -527,7 +527,115 @@ max-width: 100%; /* Nu depășește container-ul */
 }
 
 
+    /* subscribe */
 
+    .main__subscribe {
+}
+.msin__subscribe-container {
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-top: 60px;
+    padding-bottom: 60px;
+    border-top: 2px solid #f2f2f2;
+}
+.main__subscribe-section {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.main__subscribe-title {
+    font-size: 48px;
+    font-family: "Italiana", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.main__subscribe-form {
+display: flex;
+gap: 10px;
+}
+.main__subscribe__input {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal; 
+    font-size: 16px;
+    border: 1px solid #000;
+    border-radius: 52px;
+    width: 400px;
+    height: 55px;
+    padding-left: 30px;
+}
+.main__subscribe-button {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal; 
+    font-size: 24px;
+    border-radius: 52px;
+    background-color: #000;
+    color: #fff;
+    width: 150px;
+    height: 52px;
+}
+
+
+    /* footer */
+    .footer {
+    background-color: #202020;
+    padding:  60px 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal; 
+    font-size: 16px;
+
+}
+.footer__container {
+
+}
+
+.footer__content{
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__content--second{
+    display: none;
+}
+.footer__navigation-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    text-align: center;
+}
+.footer__navigation-link {
+    color: #fff;
+}
+.footer__logo {
+}
+.footer__socials {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+.footer__socials-link {
+}
+.footer__socials-image {
+}
+.footer__coop {
+}
+
+.footer__coop {
+    background-color: #262626;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    position: relative;
+    top: 60px;
+}
 
 
 
@@ -558,6 +666,18 @@ max-width: 100%; /* Nu depășește container-ul */
         max-width: 85.41%;
 
 }
+
+    /* subscribe */
+    .msin__subscribe-container {
+        max-width: 85.41%;
+
+}
+
+    /* footer */
+    .footer__content{
+        max-width: 85.41%;
+    }
+
 }
 
 
@@ -570,6 +690,16 @@ max-width: 100%; /* Nu depășește container-ul */
         .main__hero-video{
             margin-top: 130px;
         }
+
+        /* subscribe */
+.main__subscribe-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main__subscribe-form{
+    margin-top: 60px;
+}
 
 }
 
@@ -588,6 +718,9 @@ max-width: 100%; /* Nu depășește container-ul */
         font-size: 40px;
         max-width: 500px;
     }
+
+    /* subscribe */
+    
 }
 
 
@@ -634,6 +767,32 @@ max-width: 100%; /* Nu depășește container-ul */
 .main__blog-item:nth-child(3){
     margin-top: 60px;
 }
+
+    /* footer */
+
+    .footer__content{
+        display: none;
+    }
+    .footer__content--second{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__navigation-section{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+        margin-top: 30px;
+    }
+    .footer__socials{
+        display: flex;
+        gap: 30px;
+        margin-top: 30px;
+    }
+    .footer__logo{
+
+    }
+
 }
 
 @media(max-width:795px){
@@ -648,7 +807,10 @@ max-width: 100%; /* Nu depășește container-ul */
     .main__hero-title{
         font-size: 60px;
     }
-
+    /* statistic */
+    .main__statistics-container{
+        margin-top: 260px;
+    }
     .main__statistics-title{
         font-size: 40px;
     }
@@ -695,6 +857,10 @@ max-width: 100%; /* Nu depășește container-ul */
         border-radius: 20px;
         
     }
+    /* subscribe */
+    .main__subscribe-title{
+        font-size: 40px;
+    }
 }
 
 @media(max-width:635px){
@@ -715,6 +881,15 @@ max-width: 100%; /* Nu depășește container-ul */
         margin-top: 60px;
     }
 
+    /* subscribe */
+    .main__subscribe__input{
+        width: 300px;
+        height: 50px;
+    }
+    .main__subscribe-button{
+        width: 140px;
+        height: 50px;
+    }
     
 }
 
@@ -722,6 +897,10 @@ max-width: 100%; /* Nu depășește container-ul */
     
     .main__hero-title{
         font-size: 48px;
+    }
+    /* statistic */
+    .main__statistics-container{
+        margin-top: 200px;
     }
     .main__statistics-about{
         display: flex;
@@ -736,7 +915,55 @@ max-width: 100%; /* Nu depășește container-ul */
     .main__blog-card{
         grid-template-columns: 1fr;
     }
+
+    /* footer */
+    .footer__navigation-section{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
 }
+
+@media(max-width:455px){
+
+    /* subscribe */
+.main__subscribe-form{
+    flex-direction: column;
+}
+
+    .main__subscribe__input{
+        width: 400px;
+        height: 50px;
+    }
+    .main__subscribe-button{
+        width: 400px;
+        height: 50px;
+    }
+}
+
+@media(max-width:415px){
+    .main__subscribe__input{
+        width: 350px;
+        height: 50px;
+    }
+    .main__subscribe-button{
+        width: 350px;
+        height: 50px;
+    }
+}
+
+
+@media(max-width:355px){
+    .main__subscribe__input{
+        width: 300px;
+        height: 50px;
+    }
+    .main__subscribe-button{
+        width: 300px;
+        height: 50px;
+    }
+}
+
+
 
 
 
@@ -748,6 +975,8 @@ max-width: 100%; /* Nu depășește container-ul */
     
     .header__logo {
         margin: 0;
+        position: relative;
+        right: 120px;
     }
     
     .header__hamburger {
