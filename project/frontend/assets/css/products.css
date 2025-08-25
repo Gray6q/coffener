@@ -14,33 +14,3 @@ ul li{list-style: none;}
 img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 /*--------------------*/
-
-.main {
-}
-.main__container {
-}
-.main__categories {
-    
-}
-
-.main__category {
-}
-.main__category--cold-coffee {
-}
-.main__card {
-}
-.main__card-content {
-
-}
-.main__card-image {
-    max-width: 200px;
-    height: auto;
-}
-.main__card-info {
-}
-.main__card-title {
-}
-.main__card-price {
-}
-.main__card-cart {
-}

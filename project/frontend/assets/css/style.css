@@ -73,7 +73,6 @@ margin: 0 205px;
 
 
 /* hamburger meniu */
-/* Adaugă acest cod la CSS-ul tău existent */
 
 /* Hamburger Menu Styles */
 .header__hamburger {
@@ -288,7 +287,7 @@ margin: 0 205px;
     max-width: 1170px;
     max-height: 600px;
     border-radius: 32px;
-    transform: translateY(50%); /* Mută video-ul în jos */
+    transform: translateY(50%);
     position: relative;
     z-index: 10;
     margin-right: 70px;
@@ -296,7 +295,7 @@ margin: 0 205px;
     
 }
 video.main__hero-video {
-  object-fit: cover; /* dacă vrei să controlezi cum e afișată imaginea */
+  object-fit: cover; 
 }
 .main__video-source {
     
@@ -412,7 +411,7 @@ video.main__hero-video {
 .main__experience-card {
     max-width: 400px;
     height: auto;
-    position: relative; /* Pentru a poziționa borderul relativ la card */
+    position: relative; 
     display: inline-block;
 }
 .main__experience-author {
@@ -451,12 +450,6 @@ video.main__hero-video {
     font-size: 16px;
     line-height: 32px;
     color: #fff;
-}
-.main__experience-text--primary {
-}
-.main__experience-text--secondary {
-}
-.main__experience-paragraph {
 }
 
 .main__experience-image--out {
@@ -497,7 +490,7 @@ video.main__hero-video {
     width: 100px;
     height: 100px;
     display: flex;
-    `align-items: center;
+    align-items: center;
     justify-content: center;    
 }
 
@@ -516,8 +509,8 @@ video.main__hero-video {
     font-size: 18px;
 }
 .blog__item-image {
-    width: 100%; /* Se adaptează la container */
-max-width: 100%; /* Nu depășește container-ul */
+    width: 100%; 
+max-width: 100%; 
 }
 .blog__item-title {
     margin-top: 30px;
@@ -619,12 +612,6 @@ gap: 10px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
-}
-.footer__socials-link {
-}
-.footer__socials-image {
-}
-.footer__coop {
 }
 
 .footer__coop {
@@ -746,11 +733,7 @@ gap: 10px;
         font-size: 14px;
         max-width: 124px;
     }
-    .main__hero-button--primary {
 
-    }
-    .main__hero-button--secondary {
-    }
 
     .main__hero-video {
     border-radius: 0;
@@ -814,10 +797,6 @@ gap: 10px;
     .main__statistics-title{
         font-size: 40px;
     }
-
-    .main__statistics-about{
-
-    }
     .main__statistics-items{
         grid-template-columns: repeat(2, 1fr);
     }
@@ -832,8 +811,8 @@ gap: 10px;
         display: none;
     }
     .main__experience-author--small{
-        display: block;
-        font-size: 16px;
+    display: block;
+    font-size: 16px;
     color: #fff;
     font-family: "Italiana", sans-serif;
     font-weight: 400;
